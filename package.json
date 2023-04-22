@@ -8,14 +8,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
-<<<<<<< HEAD
+
     "firebase": "^9.19.1",
-=======
-<<<<<<< HEAD
-    "firebase": "^9.19.1",
-=======
->>>>>>> a5fa37f48d88737406de0bb847c7485678572bc5
->>>>>>> e2f7458d2c4889dbb5c0d9eebbb90ef1d181f8d1
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
