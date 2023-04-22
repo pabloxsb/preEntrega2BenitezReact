@@ -1,0 +1,14 @@
+.ItemDetai {
+    height: 100%;
+    width: 100%;
+}
+
+.TextDes {
+    color: white;
+    text-transform: uppercase;
+}
+
+.Imagen {
+    height: 50%;
+    width: 50%;
+}
