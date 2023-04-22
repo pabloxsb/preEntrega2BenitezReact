@@ -3,7 +3,7 @@ const Button = (props) => {
         onClick={props.handleClick}
         style={{
             color:'white',
-            backgroundColor:'blue'
+            backgroundColor:'black'
         }}
     >
         {props.label}

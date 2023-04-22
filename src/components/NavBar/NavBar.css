@@ -4,3 +4,7 @@
     align-items: center;
 background: linear-gradient(90deg, rgba(251,250,255,1) 26%, rgba(81,91,217,1) 54%, rgba(5,119,237,1) 88%);
 }
+
+.ActiveLink{
+    background-color: blue;
+}

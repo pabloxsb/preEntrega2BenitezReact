@@ -1,10 +1,18 @@
-
+import { useContext } from "react"
+import { CartContext } from "../../context/CartContext"
+import { useNavigate } from "react-router-dom"
 
 const CartWidget = () => {
+
+    const {totalQuantity, total} = useContext(CartContext)
+
+    const navigate = useNavigate()
+
+
     return (
-        <div >
+        <div onClick={() => navigate('/cart')} >
            <i className="bi bi-cart3"></i>
-            {0}
+            {totalQuantity} total ${total}
         </div>
     )
 }
