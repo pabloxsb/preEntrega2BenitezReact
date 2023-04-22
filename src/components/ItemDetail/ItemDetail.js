@@ -1,4 +1,5 @@
 import ItemCount from "../ItemCount/ItemCoun"
+<<<<<<< HEAD
 import { useState } from "react"
 import ItemDetai from "../ItemDetail/ItemDetail.css"
 import { useContext } from "react"
@@ -23,6 +24,16 @@ const ItemDetail = ({id, name, category, price, description, img, stock}) => {
         setNotification ('success', `Se agrego correctamente ${quantity} ${name}`)
       
               
+=======
+import ItemDetai from "../ItemDetail/ItemDetail.css"
+
+const ItemDetail = ({id, name, price, description, img, stock}) => {
+
+    const handleOnAdd = (quantity) => {
+        const objProduct ={
+            id,name,price,quantity,stock
+        }
+>>>>>>> a5fa37f48d88737406de0bb847c7485678572bc5
     }
 
 
@@ -33,12 +44,16 @@ const ItemDetail = ({id, name, category, price, description, img, stock}) => {
             <h3 className="TextDes">Precio:{price}</h3>
             <p className="TextDes">Stock:{stock}</p>
             <p className="TextDes">{description}</p>
+<<<<<<< HEAD
             <div>
                 {
                         stock > 0 ? <ItemCount onAdd={handleOnAdd} stock={stock}/> : <div> No hay stock disponible </div>
                 }
             
             </div>
+=======
+            <ItemCount onAdd={handleOnAdd}/>
+>>>>>>> a5fa37f48d88737406de0bb847c7485678572bc5
         </div>
     )
 }

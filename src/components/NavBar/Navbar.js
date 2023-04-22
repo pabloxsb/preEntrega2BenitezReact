@@ -3,11 +3,14 @@ import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import NavBar from '../NavBar/NavBar.css'
 import malawi from '../imagen/malawi.png'
+<<<<<<< HEAD
 import { useAuth } from '../../context/AuthContext'
 import { collection, getDocs, query, orderBy } from 'firebase/firestore'
 import { db } from '../../services/firebase/firebaseConfig'
 import { useEffect, useState } from 'react'
 
+=======
+>>>>>>> a5fa37f48d88737406de0bb847c7485678572bc5
 
 
 const Navbar = () => {
@@ -44,6 +47,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                        <div className="navbar-nav mx-auto">
                            <NavLink to='/' className={"nav-link"}>Inicio</NavLink>
+<<<<<<< HEAD
                            {
                             categories.map( cat => {
                               return(
@@ -52,6 +56,12 @@ const Navbar = () => {
                             })
                            }
                           
+=======
+                           <NavLink className={"nav-link"} to='/category/ciclido'>Ciclico</NavLink>
+                           <NavLink className={"nav-link"} to='/category/carpa'>Carpa</NavLink>
+                            <NavLink className={"nav-link"} to='/AboutUs'>About Us</NavLink>
+                           
+>>>>>>> a5fa37f48d88737406de0bb847c7485678572bc5
                          </div>
                          {
                           user ? (
