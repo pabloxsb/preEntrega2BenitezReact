@@ -1,6 +1,10 @@
 import {addDoc, collection, getDoc, doc } from "firebase/firestore"
 import { db } from "./firebaseConfig"
+<<<<<<< HEAD
 import { async } from "@firebase/util"
+=======
+
+>>>>>>> e2f7458d2c4889dbb5c0d9eebbb90ef1d181f8d1
 
 export const createOrdenCompra = async (cliente) => {
     const ordenCompra = await addDoc(collection(db,'orders'),{
@@ -11,7 +15,10 @@ export const createOrdenCompra = async (cliente) => {
         celular: cliente.celular
     })
    
+<<<<<<< HEAD
     console.log(cliente)
+=======
+>>>>>>> e2f7458d2c4889dbb5c0d9eebbb90ef1d181f8d1
 
     return ordenCompra
 }

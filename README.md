@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Mi proyecto malawi 
+## ES UNA WEP DE VENTAS DE PECES EXOTICOS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+=======================================================================
 
-## Available Scripts
+Intalacion para correr el proyecto
 
-In the project directory, you can run:
+https://github.com/pabloxsb/proYectoFinalBenitezReact
 
-### `npm start`
+npm o react-router-dom
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm install boostrap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install sweetalert2
 
-### `npm test`
+## FUNCIONAMIENTO DEL PROYECTO
+Dentro del archivo app.js estarian todas las rutas del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## SRC
 
-### `npm run build`
+Dentro del src estarian todas las carpetas de los archivos que dan funcionamiento al proyecto.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+=============================================
+## COMPONENTE   
+> Dentro de la carpeta components estaria todos los compoenente de la aplicacion
+## Item   
+> Tendriamos el funcionamiento de los productos
+## ItemDetail 
+> Tendriamos los detalles de los productos
+## Navbar
+> Tenemos el funcionamiento del navbar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+=========================================
+> En la carpeta service / firestore estan los archivos que envuelven la logica de los componentes ItemListContainer, ItemDetailContainer, Navbar y Checkout, funcionando en conjunto con los servicios de la base de datos de firebase/firestore. En cada uno de los mencionados, se retorna dicha logica para su funcionamiento.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+=====================================
+> El proyecto estaria dentro de tu consola como localhost:3000
 
-### `npm run eject`
+========================================
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#VARIABLES DE ENTORNO
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> REACT_APP_AIzaSyD7f9RQRpAjLOvnvl_aY83mrKxBe1g5GMQ
+REACT_APP_backenmalawi.firebaseapp.com
+REACT_APP_backenmalawi
+REACT_APP_backenmalawi.appspot.com
+REACT_APP_187219799649
+REACT_APP_1:187219799649:web:4acc7573ee2b36be154420
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Ninguna
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Free Software, Hell Yeah!**
